@@ -1,0 +1,77 @@
+.page-header-banner {
+    position: relative;
+    width: 100%;
+}
+
+.page-header {
+    background-color: blue;
+    position: relative;
+    overflow: visible;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    padding-left: 1.5%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    font-size: 3em;
+    font-family: 'Courgette', cursive;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.page-byline {
+    position: relative;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    clear: both;
+    margin-bottom: 1%;
+}
+
+h2 {
+    color: darkslategray;
+    font-size: 1.75em;
+}
+
+.main-content-area {
+    position: relative;
+    width: 100%;
+}
+
+.thumbnails {
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.col-2 {
+    border: 1px dashed red;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    position: relative;
+    border-radius: 50%;
+}
+
+.col-2:hover {
+    position: relative;
+    display: block;
+    width: 155px;
+    height: 155px;
+    overflow: visible;
+}
+
+/* animation: text across the top changes color across a spectrum, from left to right, on a loop. Delay between transitions, duration and speed of transition, and colors TBD */
